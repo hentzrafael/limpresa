@@ -7,3 +7,9 @@
     height: 30px;
     background-color: transparent;
 }
+
+.user{
+    height: 50;
+    width: 50;
+    border-radius: 300;
+}

@@ -10,16 +10,20 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="./styles/base.css">
-  <title>Olá, mundo!</title>
+  <link rel="shortcut icon" href="./img/cleaning.svg" type="image/x-icon">
+  <title>Limpresa - A melhor em limpeza</title>
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-    <a class="navbar-brand" href="./index.html">Limpresa</a>
+  <!-- Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark align-right">
+    <a class="navbar-brand" href="./index.html">
+      <img src="./img/cleaning.svg" alt="">Limpresa
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
       aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon">
+      </span>
     </button>
 
     <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
@@ -39,6 +43,9 @@
     </div>
   </nav>
 
+  <!-- End Navbar-->
+
+
   <div class="container">
     <!-- Carousel-->
     <div class="row h-50">
@@ -51,32 +58,26 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active h-25">
-              <img class="d-block img-fluid"
-                src="./img/quadra.jpg"
-                alt="Primeiro Slide">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Limpeza de quadra</h5>
-                  <p>Serviço de qualidade para seus jogos</p>
-                </div>
+              <img class="d-block img-fluid" src="./img/quadra.jpg" alt="Primeiro Slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Limpeza de quadra</h5>
+                <p>Serviço de qualidade para seus jogos</p>
+              </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100 img-fluid"
-                src="./img/cozinha.jpg"
-                alt="Segundo Slide">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Limpeza de cozinhas</h5>
-                  <p>Serviço de qualidade para seu restaurante</p>
-                </div>
-                
+              <img class="d-block w-100 img-fluid" src="./img/cozinha.jpg" alt="Segundo Slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Limpeza de cozinhas</h5>
+                <p>Serviço de qualidade para seu restaurante</p>
+              </div>
+
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100"
-                src="./img/carpete.png"
-                alt="Terceiro Slide">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Limpeza de carpetes</h5>
-                  <p>Sua casa com o carpete sempre macio e limpo</p>
-                </div>
+              <img class="d-block w-100" src="./img/carpete.png" alt="Terceiro Slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Limpeza de carpetes</h5>
+                <p>Sua casa com o carpete sempre macio e limpo</p>
+              </div>
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -94,14 +95,18 @@
 
     <!-- End Carousel-->
     <hr>
-    <h1>Serviços</h1>
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>Serviços</h1>
+      </div>
+
+    </div>
+
     <!-- Cards-->
     <div class="row">
       <div class="col-lg-4 col-md-6">
         <div class="card">
-          <img class="card-img-top"
-            src="./img/quadra_card.jpg"
-            alt="Imagem de capa do card">
+          <img class="card-img-top" src="./img/quadra_card.jpg" alt="Imagem de capa do card">
           <div class="card-body">
             <h5 class="card-title">Limpeza de Quadra</h5>
             <p class="card-text">Serviço de limpeza de quadra de esportes com foco em aderência.</p>
@@ -112,12 +117,12 @@
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="card">
-          <img class="card-img-top"
-            src="./img/cozinha_card.jpg"
-            alt="Imagem de capa do card">
+          <img class="card-img-top" src="./img/cozinha_card.jpg" alt="Imagem de capa do card">
           <div class="card-body">
             <h5 class="card-title">Limpeza de cozinha de restaurante</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro error quibusdam qui! Sunt libero magnam esse natus. Quos culpa vero obcaecati, illo consequuntur dolorum fuga, dolore sed officiis aliquid ab. </p>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro error quibusdam qui!
+              Sunt libero magnam esse natus. Quos culpa vero obcaecati, illo consequuntur dolorum fuga, dolore sed
+              officiis aliquid ab. </p>
             <h4>R$ 400,00/h</h4>
             <a href="./pages/servico2.html" class="btn btn-primary">Solicitar Orçamento</a>
           </div>
@@ -125,12 +130,12 @@
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="card">
-          <img class="card-img-top"
-            src="./img/carpet_card.jpg"
-            alt="Imagem de capa do card">
+          <img class="card-img-top" src="./img/carpet_card.jpg" alt="Imagem de capa do card">
           <div class="card-body">
             <h5 class="card-title">Limpeza de carpete</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores id, eos labore ex est fugiat tempora at reprehenderit ut eveniet laboriosam suscipit! Enim hic vero laboriosam libero beatae laborum rerum.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores id, eos labore ex
+              est fugiat tempora at reprehenderit ut eveniet laboriosam suscipit! Enim hic vero laboriosam libero beatae
+              laborum rerum.</p>
             <h4>R$ 400,00/h</h4>
             <a href="./pages/servico3.html" class="btn btn-primary">Solicitar orçamento</a>
           </div>
@@ -140,6 +145,31 @@
     </div>
     <!-- End Cards-->
 
+    <!--Depoimentos-->
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>Depoimentos</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-header">
+            <div class="user">
+              <img src="./img/carlos.jpg" alt="" class="img-fluid">
+
+            </div>
+          </div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>Serviço da mais alta qualidade, sem falhas!</p>
+              <footer class="blockquote-footer">Carlos Almeida <cite >Limpeza de quadra</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Depoimentos-->
     <nav class="navbar fixed-bottom navbar-light bg-light">
       <p>Rafael Augusto Hentz</p>
     </nav>
